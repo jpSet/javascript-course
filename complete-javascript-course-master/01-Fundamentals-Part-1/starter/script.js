@@ -10,3 +10,5 @@ population++;
 console.log(COUNTRY);
 console.log(CONTINENT);
 console.log(population);
+
+let message = `${COUNTRY} is country from ${CONTINENT} with a population of ${population} million people.`; 
