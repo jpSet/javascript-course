@@ -53,9 +53,10 @@ else {
 */
 
 // Logical Operators
-if (population < 50 && language === 'English') {
+if (population < 50 && language === 'English' && !isIsland) {
     console.log(`You should live in ${COUNTRY}.`);
 }
 else {
     console.log(`${COUNTRY} does not meet your criteria :(`)
 }
+
