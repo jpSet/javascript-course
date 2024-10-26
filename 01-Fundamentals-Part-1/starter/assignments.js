@@ -60,3 +60,30 @@ else {
     console.log(`${COUNTRY} does not meet your criteria :(`)
 }
 
+/*language = prompt("Point a language:");
+//The switch Statement
+switch (language) {
+    case 'chinese':
+    case 'mandarim':
+        console.log('MOST number of native speakers!');
+        break;
+    case 'spanish':
+        console.log('2nd place in number of native speakers');
+        break;
+    case 'english':
+        console.log('3rd place');
+        break
+    case 'hindi':
+        console.log('Number 4');
+        break;
+    case 'arabic':
+        console.log('5th most spoken language');
+        break;
+    default:
+        console.log('Great language too :D');
+        break;
+}
+*/
+
+// The Conditional (Ternary) Operator
+console.log(`Portugal's population is ${(population>33) ? 'above' : 'bellow'}  average.`);
